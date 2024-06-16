@@ -15,10 +15,10 @@ namespace homeWorkFourRearrangementOfValues
 
             Console.WriteLine($"{fistName} {lastName}");
 
-            string transitVariable = fistName;
+            string temp = fistName;
 
             fistName = lastName;
-            lastName = transitVariable;
+            lastName = temp;
 
             Console.WriteLine($"{fistName} {lastName}");
         }
